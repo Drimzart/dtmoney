@@ -42,12 +42,12 @@ export const Container = styled.form`
     transition: filter 0.2s;
     font-weight: 600;
 
-  }
-
-  &:hover {
-    filter:brightness(0.9);
+    &:hover {
+      filter:brightness(0.9);
+    }
   }
 `;
+
 
 export const TransactionTypeContainer = styled.div`
   margin: 1rem 0;
