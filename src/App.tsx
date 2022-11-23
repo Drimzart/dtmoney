@@ -8,8 +8,7 @@ import { TransactionsProvider } from "./hooks/useTransactions";
 
 Modal.setAppElement('#root');
 
-var nome = window.prompt('Qual seu nome ?')
-window.alert('Prazer em te conhecer ' + nome +" !")
+
 
 export function App() {
   const[isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
